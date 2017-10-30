@@ -3,11 +3,10 @@
 
 	var def = {
 		typeName: "", 
-		inject: ['$rootScope'],
 		init: init 
 	} 
 
-	function init($rootScope) {
+	function init(scope) {
 
 	}
 
